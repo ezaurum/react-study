@@ -28,8 +28,23 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <ul>
+	      <li><Profile/></li>
+	      <li><Profile/></li>
+	      <li><Profile/></li>
+	      <li><Profile/></li>
+	</ul>
     </>
   )
+}
+
+function Profile() {
+	return (
+		<img
+		src="https://i.imgur.com/MK3eW3As.jpg"
+		alt="Katherine Johnson"
+		/>
+	)
 }
 
 export default App
